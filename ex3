@@ -1,0 +1,11 @@
+import math
+import turtle
+x = 0
+y = 0
+a = 100
+turtle.reset
+turtle.down
+for i in range(0, 360):
+    x = 2*a*math.cos(math.radians(i))-a*math.cos(2*math.radians(i))
+    y = 2*a*math.sin(math.radians(i))-a*math.sin(2*math.radians(i))
+    turtle.goto(x,y)
