@@ -1,0 +1,10 @@
+N=int(input())
+s=[]
+i=1
+max=0
+for i in range(0,N):
+    p=int(input())
+    s.append(p)
+    if p>max:
+        max=p
+print(max)
