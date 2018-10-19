@@ -1,0 +1,7 @@
+N=input("")
+i=1
+s=[]
+for i in range(N):
+    p=int(input 'number')
+    s.append(p)
+sum[s]

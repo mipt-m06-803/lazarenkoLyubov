@@ -1,0 +1,10 @@
+s=input('введите предложение ')
+p=s.split()
+maxl=0
+maxword=''
+for i in [p]:
+    l=len(i)
+    if l>maxl:
+        maxl=l
+        maxword=[i]
+print(maxword)

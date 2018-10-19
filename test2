@@ -1,0 +1,6 @@
+a=input('day')
+b=input('month')
+c=input('year')
+s='.'
+d=[a+s+b+s+c]
+print (d)
